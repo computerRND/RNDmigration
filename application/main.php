@@ -1,6 +1,6 @@
 
         <?php
-         require_once 'application/fsconnect/fsLib/fsConnect.php';
+         require_once 'application/fs/fsLib/fsConnect_cls.php';
       
 /*
 
