@@ -1,0 +1,17 @@
+/*the Responsive Neoteric Development model*/
+
+AKA = "The R.N.D Model";
+<!DOCTYPE html>
+<!--
+posttab
+-->
+
+        <?php
+         require_once 'application/fsconnect/classes/fsConnect.php';
+      
+/*
+
+*/
+         
+           ?>
+

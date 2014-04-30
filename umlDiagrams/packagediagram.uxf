@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="12.2">
+  <zoom_level>10</zoom_level>
+  <element>
+    <type>com.umlet.element.Package</type>
+    <coordinates>
+      <x>30</x>
+      <y>20</y>
+      <w>610</w>
+      <h>920</h>
+    </coordinates>
+    <panel_attributes>rndmod1
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Package</type>
+    <coordinates>
+      <x>50</x>
+      <y>810</y>
+      <w>400</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>sass
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Package</type>
+    <coordinates>
+      <x>50</x>
+      <y>870</y>
+      <w>400</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>UmlDiagrams
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.PackageAggregationHierarchy</type>
+    <coordinates>
+      <x>70</x>
+      <y>90</y>
+      <w>360</w>
+      <h>700</h>
+    </coordinates>
+    <panel_attributes>
+this-&gt;folder(application)
+	fsconnect
+		fsLib
+		fsProperties
+		fsStorage
+			fsStClasses
+			fsStObjects
+			fsStCache
+		fsObjects	
+	regex
+		rgxClasses
+		rgxProperties
+			RgxPrTemplates
+					rgxPrTemplatesLib
+		rgxObjects
+	skins
+		css
+		pages
+			layouts
+			partials
+			widgets
+	static-functions
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Package</type>
+    <coordinates>
+      <x>50</x>
+      <y>60</y>
+      <w>400</w>
+      <h>740</h>
+    </coordinates>
+    <panel_attributes>application</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

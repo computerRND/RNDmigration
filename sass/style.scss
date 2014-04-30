@@ -1,0 +1,99 @@
+
+/*
+
+*/
+/* 
+    Created on : Apr 9, 2014, 4:30:14 AM
+    Author     : Steven Pladl
+/*==================================================================================================*/
+/*declare variables*/
+/*base/theme colors*/
+$ThemeBlack:#000000;
+$ThemeWhite:#fcfcfc;
+$ThemeOrange:#ff6900;
+$ThemeBlue:#5b858f;
+
+$TransArea:transparent;
+
+$ObjectShadow:box-shadow, 0 0 0.05em rgba(0, 0, 0, 0.4);
+$TextShowdow1:text-shadow, 1px 1px 0px #fbfbfb; 
+
+/*font types*/
+$header-fonts:Malgun Gothic Bold;
+$content-fonts:Courier New Bold;
+$small-fonts:Courier New;
+
+/* font variables*/
+/*colors*/
+
+
+$header-colors:#ff6900;
+$content-colors:#5b858f;
+$small-colors:#fcfcfc;
+
+
+/*background variables */ 
+/*body colors*/
+$contentArea-colors:#000000;
+$footerArea-colors: #000000;
+
+/*text and omage FX*/
+/*FX colors*/
+$drop-shadow1:#92a7ac;
+
+/*==================================================================================================*/
+/*layout elements*/
+body {
+  background-color: black;
+  color: #fcfcfc;
+  padding: 10px;
+  text-shadow: 2px 2px 0p x #92a7ac;
+  border: 1px solid #5b858f, box-shadow, 2px 2px 1px #fbfbfb;
+  border-radius: 3px;
+  -o-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border: 1px solid #5b858f, box-shadow, 2px 2px 1px #fbfbfb;
+  border-radius: 3px;
+  -o-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px; }
+
+/*text elements*/
+/*widgetRapper classes*/
+/*login sction*/
+#dbLogin {
+  height: 220px;
+  width: 1028px;
+  background-color: black; }
+  #dbLogin #submit1 {
+    float: right;
+    clear: both;
+    padding: 5px; }
+  #dbLogin li {
+    text-align: center;
+    margin: 5px;
+    list-style: none;
+    float: left;
+    font-family: Malgun Gothic Bold, text-shadow, 1px 1px 0px #fbfbfb;
+    background-color: #fcfcfc;
+    color: black;
+    padding: 5px;
+    text-shadow: 2px 2px 0p x #92a7ac;
+    border: 1px solid #5b858f, box-shadow, 2px 2px 1px #fbfbfb;
+    border-radius: 3px;
+    -o-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border: 1px solid #5b858f, box-shadow, 2px 2px 1px #fbfbfb;
+    border-radius: 3px;
+    -o-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px; }
+  #dbLogin iframe {
+    height: 142px;
+    width: 425px;
+    margin: 5px;
+    padding: 10px; }
+
+/*# sourceMappingURL=style.css.map */

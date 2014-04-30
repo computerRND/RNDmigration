@@ -1,0 +1,43 @@
+
+
+/*===============================================================*/
+/*select all tags and elements as groupings or arrays*/
+/*-----------------------------------------------*/
+/*---------------*/
+$selAlEl ='/<[^<]+?>/gm'; 														/*select html4 elements*//*<--requires a split array*/
+/*---------------*/
+$selAlTxtCnt = '/(?<=^|>)[^><]+?(?=<|$)/gm'; 									/*select content*//*<--requires a split array*/
+/*===============================================================*/
+/*select form tags and elements*/
+/*-------------------------------------------------*/
+$selFrmStrt ='/<form.*(.?).?(.?).?(.?).?(.?).?(.?).?>/gm'; 						/*select the start form element*/
+/*---------------*/
+$selFrmSEnd ='/</form.?>/gm';                             						/*select the end form element*/
+/*---------------*/
+$selInPtEl ='/<input(.?).?(.?).?(.?).?(.?).?(.?)>|</input>/gm'; 				/*select input elements*//*<--requires a split array*/
+/*==================================================+============*/
+/*select text tags and elements*/
+/*-------------------------------------------------*/
+$selBldTags ='/<b(.?).?(.?).?(.?).?(.?).?(.?)>|</b>/gm';  						/*select bold tags*/
+/*---------------*/
+$selParEl ='/<p(.?).?(.?).?(.?).?(.?).?(.?)>|</p>/gm'; 							/*select paragraph tags*/
+/*---------------*/
+$selFntEl ='/<font(.?).?(.?).?(.?).?(.?).?(.?)>|</font>/gm'; 					/*select font elements*/
+/*---------------*/
+$selRulTag ='/<hr>/gm'; 														/*select ruler tag*/
+/*==================================================+============*/
+/*select table tags and elements*/
+/*-------------------------------------------------*/
+$selTabRwTags ='/<tr(.?).?(.?).?(.?).?(.?).?(.?)>|</tr>/gm'; 					/*select table row tags*/
+/*---------------*/
+$selTabDvEl ='/<td(.?).?(.?).?(.?).?(.?).?(.?)>|</td>/gm'; 						/*select table div tags*/
+/*---------------*/
+$elTabEl ='/<table(.?).?(.?).?(.?).?(.?).?(.?)>|</table>/gm'; 					/*select tables tags*/
+/*==================================================+============*/
+/*select image elements*/
+/*-------------------------------------------------*/
+$selProdImg ='/<img(.*)(png|jpeg|jpe|jpg|tif|tiff)(.*)/>/gm';	  				/*select the product image*/
+/*---------------*/
+$selTrkrImg ='/^<img(.*)/>$/gm';	  											/*select tracker-image(located just outside the form tags)*/
+
+

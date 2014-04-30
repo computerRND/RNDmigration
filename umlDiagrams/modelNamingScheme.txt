@@ -1,0 +1,70 @@
+<?php
+
+/* 
+appliction naming scheme version-1. (4/17/2014)
+ */
+
+
+/*module/class names*/
+
+/*Notes on class naming scheme:
+ * classes start off functions or small stand alone apps(in testing. I call them modules because thay are coded and tested
+ * first outside of my application and then retrofitted into the application after they have passed my early developtment and testing stages)
+ * 
+ * There are two levels of classes in this application. 1st -there is the core level class in folders where the folder names will by post fixed 
+ * with(or end in) **Lib (like dbLib)
+ * 
+ * The core level classes function as libraries or includes/dependencies (often locked down to help keep the application stable and/or secure)
+ * 
+ * 2nd -there are higher level classes that might or might not extend the core classes - The 2nd or higher level classes are to designed to control
+ * dymanic components such as: temp files, session/connection info. dymanic variables and other types data of cache functions.
+ *  
+ * class naming is more about the name of the directory the class file is stored then the name of the file it self.(this way the require path in a 
+ * given application file can be used as a quick reference to what level/class type of the applications a page, object or block of code is active on)    
+ */
+
+/*variable/property names*/
+
+/*
+ * Variables(or properties) break down a into prefixed naming scheme of fore distinct types. For example ($hostnameCp = 'localhost';)
+ * 
+ * $ca - constant array
+ * $da - dynamic array
+ * 
+ * cp - constant property
+ * dp - Dymanic property   
+ * 
+ * Side note - you see alot pre-fixing, post-fixing, retro-fitting and recursion in in general in most of my code and code design practices.
+ * I guess im just sentimental like that
+ */
+
+/*function/method names*/
+
+/*This the naming get a little more complex. My point is to make the naming scheme as big a part of the API as I can. Its seems over complicated
+ * I know. The theory is once we have memorized the naming scheme as a large component of the API then we can look to the code for answers
+ * when the API has a bug as well as the API when the Code has the bug.
+ * 
+ * when you see the method/function naming has both pre and post-fix components in the naming the Class type/level is denoted by the postfix.
+ * The property/variable type prefix in the naming scheme denotes the origin data typing used in designing the method and its.
+ * 
+ * When or if the code levels start spawn sub-classes and sub-methods. this naming scheme should help us keep track of things better.
+ * 
+ * function/method name example:(daDbQueryThis)da=dymamic array of varaibles, DbQuery=method designed to Query a database, 
+ * This=means this method has no parrent class(it is PHP global and/or a member the localcurrent class only).
+ * Note!The postfixes "This $ Self" it is designed to denote the "$this->variable-name" and the "self::constant-name"  PHP/OOP syntax 
+ * structures. This naming will also denote associative naming where it applies database/table/row indexing
+ * (at least cases where none auto-incrementing database/table/row/index naming schemes are used)
+ * 
+ * ca****Lib, ca****Ext or ca****Self
+ * da****Lib, da****Ext or da****This
+ * 
+ * cp****Lib, cp****Ext or cp****Self
+ * dp****Lib, dp****Ext or dp****this
+ */
+
+/* object/event names*/
+
+/*
+ * 
+ */
+

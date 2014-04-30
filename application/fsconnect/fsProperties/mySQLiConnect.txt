@@ -1,0 +1,19 @@
+<?php
+
+
+/*** mysql hostname ***/
+$cpHostname = 'localhost';
+
+/*** mysql username ***/
+$cpUsername = 'root';
+
+/*** mysql password ***/
+$cpPassword = 'steve35x';
+
+/*** mysql database name ***/
+$cpDbName ='rndmod1';
+
+/*** create a new mysqli object ***/
+$mysqliCp = @new mysqli($cpHostname, $cpUsername, $cpPassword, $cpDbName);
+   
+?>
