@@ -16,7 +16,7 @@ _vnt (This is an event-file that contains class-objects needed to execute class-
 The /fs/ package structure:
 --------------------------------------------
 -----
-fs (total class init = 2)
+fs (total class inits = 2)
 -----
 
 /fs/
@@ -76,4 +76,6 @@ fsCache (total class extends = 2)
 -----
 /fs/fsCache/
 	fsInsertCacheValue_ext2.php
-	fsResetCacheValue_ext1.php	
+	fsResetCacheValue_ext1.php
+
+--------------------------------------	

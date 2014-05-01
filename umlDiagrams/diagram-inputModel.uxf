@@ -1,0 +1,527 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="12.2">
+  <zoom_level>10</zoom_level>
+  <element>
+    <type>com.umlet.element.custom.Component</type>
+    <coordinates>
+      <x>850</x>
+      <y>100</y>
+      <w>200</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes> 
+fsConnect.php:
+#htmlEntities(contructor)
+#MySQLi(constructor)
+bg=red</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.Component</type>
+    <coordinates>
+      <x>1060</x>
+      <y>280</y>
+      <w>250</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes> 
+PostsplitClass:
+Post_split.php(constructor)
+nesting preg_sprit and $_post
+based methods while extending
+rules preprocessing methods 
+called in the above
+abstract class
+(regex.php) 
+bg=red
+fg=default</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.Component</type>
+    <coordinates>
+      <x>890</x>
+      <y>290</y>
+      <w>140</w>
+      <h>170</h>
+    </coordinates>
+    <panel_attributes> 
+DB Controller
+class; 
+type casting = 
+boolean
+(Static method 
+access)
+fg=default
+bg=light_gray</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.Component</type>
+    <coordinates>
+      <x>660</x>
+      <y>250</y>
+      <w>200</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>Input form: 
+textArea
+bg=black
+fg=white</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.Component</type>
+    <coordinates>
+      <x>1060</x>
+      <y>500</y>
+      <w>210</w>
+      <h>170</h>
+    </coordinates>
+    <panel_attributes> Setter:
+preg_split.php 
+(contructor method)
+-----------------
+$_post (if(isset)
+incapsolated 
+(public method)
+bg=white</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.Component</type>
+    <coordinates>
+      <x>1060</x>
+      <y>700</y>
+      <w>210</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes> Getter:
+preg_replace.php 
+(Htmlentities protected
+method)
+--------
+$_post (if(isset)
+incapsolated public
+methods
+--------
+if(Selector){else(selector)};
+bg=white</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.Component</type>
+    <coordinates>
+      <x>1060</x>
+      <y>80</y>
+      <w>250</w>
+      <h>180</h>
+    </coordinates>
+    <panel_attributes>regex.php
+-------------
+prepares global requirements,
+properties or parameters of 
+variables extacted using the 
+preg_split method in the derived 
+protected class
+(post_split.php)
+bg=yellow</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.Component</type>
+    <coordinates>
+      <x>1040</x>
+      <y>460</y>
+      <w>290</w>
+      <h>450</h>
+    </coordinates>
+    <panel_attributes>Incapsolation class
+bg=yellow</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>990</x>
+      <y>20</y>
+      <w>120</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;[&gt;] - [&gt;]&gt;</panel_attributes>
+    <additional_attributes>100;80;50;30;30;100</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>1250</x>
+      <y>270</y>
+      <w>100</w>
+      <h>230</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;[&gt;] - [&gt;]&gt;</panel_attributes>
+    <additional_attributes>30;30;80;110;50;210</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>1210</x>
+      <y>490</y>
+      <w>160</w>
+      <h>250</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;[&gt;] - [&gt;]&gt;</panel_attributes>
+    <additional_attributes>30;30;140;110;30;230</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.Component</type>
+    <coordinates>
+      <x>620</x>
+      <y>80</y>
+      <w>200</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes> 
+rgxTemplates.php
+--------------
+#cjWdgt_tmplt()
+#uTbWdgt_tmplt()
+#scldWd_tmplt()
+bg=black
+fg=white</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.Component</type>
+    <coordinates>
+      <x>820</x>
+      <y>480</y>
+      <w>200</w>
+      <h>180</h>
+    </coordinates>
+    <panel_attributes> 
+#itorator class 
+-----------
+#Dynamic Variable
+ selection class
+-----------
++Dynamic variable
+	cache methods
+bg=light_gray</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>880</x>
+      <y>410</y>
+      <w>50</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;[PHP][SQL]&gt;</panel_attributes>
+    <additional_attributes>30;90;30;30</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>60</x>
+      <y>70</y>
+      <w>530</w>
+      <h>600</h>
+    </coordinates>
+    <panel_attributes>bt=.
+#input supper classes
+(1st of 2)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>270</x>
+      <y>150</y>
+      <w>100</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>/+regex.php/
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>370</x>
+      <y>250</y>
+      <w>210</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>template=0: Object
+Input Model-v1
+--
+-fsConnect.php
+--
+#mySQLi.php
+#htmlEntities.php
+#postSplit.php
+bg=red
+fg=black</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>240</x>
+      <y>190</y>
+      <w>150</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>{active}
+Incapsolation.php
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.UseCase</type>
+    <coordinates>
+      <x>100</x>
+      <y>130</y>
+      <w>450</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>lt=.
+bg=yellow</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Note</type>
+    <coordinates>
+      <x>70</x>
+      <y>340</y>
+      <w>230</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>MySQLi{prepair/bind methods}
+	
+	
+fg=default
+bg=red</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Note</type>
+    <coordinates>
+      <x>70</x>
+      <y>400</y>
+      <w>230</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>postSplit{
+	if(isset($_post))method
+	$regxLib[rgx] = (foreach
+	(preg_split('$rgxTemplate')));
+fg=default
+bg=red</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Note</type>
+    <coordinates>
+      <x>70</x>
+      <y>260</y>
+      <w>230</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>connect to and clear selected 
+(DB)values when the reset 
+rgxTemplate ($object) has been 
+executed.  
+fg=default
+bg=red</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Note</type>
+    <coordinates>
+      <x>1380</x>
+      <y>340</y>
+      <w>150</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>when Port synbols
+are connected by
+the Component icons
+this will a tight 
+cuppling of two 
+components
+fg=default
+bg=default</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.custom.Component</type>
+    <coordinates>
+      <x>650</x>
+      <y>350</y>
+      <w>200</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes> 
++Itorator cache table
+bg=light_gray</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>770</x>
+      <y>340</y>
+      <w>90</w>
+      <h>300</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;[&gt;] - [&gt;]&gt;</panel_attributes>
+    <additional_attributes>70;280;30;210;50;30</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>640</x>
+      <y>280</y>
+      <w>290</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;[SQL][SQL]&gt;</panel_attributes>
+    <additional_attributes>30;90;270;30</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Note</type>
+    <coordinates>
+      <x>70</x>
+      <y>370</y>
+      <w>230</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>htmlEntities{escape string data}
+	
+	
+fg=default
+bg=red</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>1310</x>
+      <y>350</y>
+      <w>90</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>30;30;70;30</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Note</type>
+    <coordinates>
+      <x>600</x>
+      <y>460</y>
+      <w>150</w>
+      <h>200</h>
+    </coordinates>
+    <panel_attributes>when Port synbols
+connect(or point) 
+from Component icon
+to a method with 
+another box.
+This will denote
+that the indicated 
+method controls
+functionality
+over the other/related
+Component.
+ 
+fg=default
+bg=default</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>720</x>
+      <y>520</y>
+      <w>90</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>70;30;30;30</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>800</x>
+      <y>180</y>
+      <w>100</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;[&gt;] - [&gt;]&gt;</panel_attributes>
+    <additional_attributes>30;90;80;70;70;30</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>970</x>
+      <y>180</y>
+      <w>90</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;[&gt;] - [&gt;]&gt;</panel_attributes>
+    <additional_attributes>60;30;70;80;30;130</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>960</x>
+      <y>470</y>
+      <w>130</w>
+      <h>420</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;[&gt;] - [&gt;]&gt;</panel_attributes>
+    <additional_attributes>30;30;30;200;110;400</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>760</x>
+      <y>20</y>
+      <w>130</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;[&gt;] - [&gt;]&gt;</panel_attributes>
+    <additional_attributes>30;80;100;30;110;100</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Note</type>
+    <coordinates>
+      <x>70</x>
+      <y>480</y>
+      <w>230</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>fsStorage classes
+fg=default
+bg=light_gray</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Note</type>
+    <coordinates>
+      <x>70</x>
+      <y>550</y>
+      <w>230</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>user options and setting
+classes
+fg=white
+bg=black</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

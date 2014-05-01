@@ -49,14 +49,14 @@
     </coordinates>
     <panel_attributes>
 this-&gt;folder(application)
-	fsconnect
+	fs
 		fsLib
 		fsProperties
 		fsStorage
 			fsStClasses
-			fsStObjects
-			fsStCache
-		fsObjects	
+			fsStEvents
+		fsObjects
+		fsStCache	
 	regex
 		rgxClasses
 		rgxProperties
