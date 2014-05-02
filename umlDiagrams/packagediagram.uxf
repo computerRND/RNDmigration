@@ -6,7 +6,7 @@
     <coordinates>
       <x>30</x>
       <y>20</y>
-      <w>610</w>
+      <w>440</w>
       <h>920</h>
     </coordinates>
     <panel_attributes>rndmod1
@@ -69,7 +69,7 @@ this-&gt;folder(application)
 			layouts
 			partials
 			widgets
-	static-functions
+	staticFunctions
 
 </panel_attributes>
     <additional_attributes/>

@@ -10,7 +10,7 @@
       <h>130</h>
     </coordinates>
     <panel_attributes> 
-fsConnect.php:
+fsOpen_abs.php:
 #htmlEntities(contructor)
 #MySQLi(constructor)
 bg=red</panel_attributes>
@@ -505,7 +505,7 @@ bg=default</panel_attributes>
       <w>230</w>
       <h>70</h>
     </coordinates>
-    <panel_attributes>fsStorage classes
+    <panel_attributes>fsOpen classes
 fg=default
 bg=light_gray</panel_attributes>
     <additional_attributes/>

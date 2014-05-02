@@ -1,0 +1,78 @@
+(file naming scheme)
+
+/*
+if a file ends with either "_abs" "_btn" "_cls" "_ext1" "_ext2" "_vnt" 
+
+files ending in:
+_abs (denotes a class-file that contructs properties and methods required by an abstract class)
+_btn (denotes a class file that contains the properties and methods of a built-in (?/PHP) class) 
+_cls (denotes that a file contains the first instance/parent of a class structure) 
+_ext1 (denotes a extended-class structure/file that contains the base properties of the class it extends)
+_ext2 (denotes an extended-class structure/file that contains the base methods of the class it extends)
+_vnt (This is an event-file that contains class-objects needed to execute class-methods and properties)
+
+*/
+--------------------------------------------
+The /skins/ package structure:
+--------------------------------------------
+-----
+skins (total class inits&builtins = 1&1)
+-----
+/regex/
+	skins_abs.php
+        themeDb_btn.php
+
+_____
+css (total class inits = 1)
+-----
+/regex/css/
+        style.css
+        theme_cls.php
+
+----------------------------------------
+pages
+-----
+/regex/pages/
+        baseView_abs.txt
+
+-----
+pages
+-----
+layouts
+-----
+/regex/pages/layouts
+            midiaCenterSize_btn.php
+            mobileSize_btn.php
+            tabletSize_btn.php
+--------------------------------------
+pages
+-----
+partials
+-----
+/regex/pages/partials
+            headDiv_cls.php
+            footerDiv_btn.php
+            ioDiv_btn.php
+            leftSideDiv_btn.php
+            rapperDiv_btn.php
+            rightSideDiv_btn.php
+            sectionDiv_btn.php
+            
+----------------------------------------
+pages
+-----
+widgets
+-----
+/regex/pages/widgets
+            widgetLayout1_btn.txt
+            widgetStyle1_btn.txt
+            widgetView1_btn.txt
+
+-----
+
+-----
+
+
+
+
+
